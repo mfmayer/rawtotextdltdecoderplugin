@@ -134,7 +134,7 @@ bool RawToTextDltDecoderPlugin::decodeMsg(QDltMsg &msg, int triggeredByUser)
         {
             msg.addArgument(arg);
         }
-        msg.genMsg();
+        //msg.genMsg();
         return true;
     }
     return false;
